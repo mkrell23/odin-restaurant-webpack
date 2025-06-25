@@ -1,21 +1,17 @@
-
-        // <div class="title">
-        //     <h1>Ritzenbaucher German Foods Restaurant</h1>
-        // </div>
-        // <div class="cards">
-        //     <div>
-        //         <h3>Our History</h2>
-        //         <p>This is a paragraph of something you really don't care about.</p>
-        //     </div>
-        //     <div>
-        //         <h3>Our Chef</h3>
-        //         <p>Here's something else you're not interested in</p>
-        //     </div>
-        //     <div>
-        //         <h3>Our Partners</h3>
-        //         <p>You just want the menu and hours but you can't have them.</p>
-        //     </div>
-        // </div>
+// <div class="cards">
+//     <div>
+//         <h3>Our History</h2>
+//         <p>This is a paragraph of something you really don't care about.</p>
+//     </div>
+//     <div>
+//         <h3>Our Chef</h3>
+//         <p>Here's something else you're not interested in</p>
+//     </div>
+//     <div>
+//         <h3>Our Partners</h3>
+//         <p>You just want the menu and hours but you can't have them.</p>
+//     </div>
+// </div>
 
 const firstContent = document.createElement("div");
 
