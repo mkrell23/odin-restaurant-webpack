@@ -1,0 +1,27 @@
+{
+  "name": "odin-restaurant-webpack",
+  "version": "1.0.0",
+  "description": "restaurant website using webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkrell23/odin-restaurant-webpack.git"
+  },
+  "author": "MKrell",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mkrell23/odin-restaurant-webpack/issues"
+  },
+  "homepage": "https://github.com/mkrell23/odin-restaurant-webpack#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
