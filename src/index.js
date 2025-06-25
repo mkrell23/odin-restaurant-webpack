@@ -1,6 +1,7 @@
 import "./styles.css";
 import firstContent from "./initialPage";
 import menu from "./menu";
+import hours from "./hours";
 
 const homeButton = document.getElementById("homeButton");
 const menuButton = document.getElementById("menuButton");
@@ -19,6 +20,10 @@ homeButton.addEventListener('click', function(){
 
 menuButton.addEventListener('click', function(){
     setPage(menu);
+});
+
+hoursButton.addEventListener('click', function(){
+    setPage(hours);
 });
 
 
