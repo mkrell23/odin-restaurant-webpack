@@ -22,7 +22,8 @@ const historyCard = document.createElement("div");
 const historyTitle = document.createElement("h3");
 const historyBlurb = document.createElement("p");
 historyTitle.innerText = "Our History";
-historyBlurb.innerText = "This is a paragraph of something you really don't care about.";
+historyBlurb.innerText =
+  "This is a paragraph of something you really don't care about.";
 historyCard.appendChild(historyTitle);
 historyCard.appendChild(historyBlurb);
 cardContainer.appendChild(historyCard);
@@ -40,11 +41,12 @@ const partnersCard = document.createElement("div");
 const partnersTitle = document.createElement("h3");
 const partnersBlurb = document.createElement("p");
 partnersTitle.textContent = "Our Partners";
-partnersBlurb.innerText = "You just want the menu and hours but you can't have them.";
+partnersBlurb.innerText =
+  "You just want the menu and hours but you can't have them.";
 partnersCard.appendChild(partnersTitle);
 partnersCard.appendChild(partnersBlurb);
 cardContainer.appendChild(partnersCard);
 
 firstContent.appendChild(cardContainer);
 
-export default firstContent
+export default firstContent;

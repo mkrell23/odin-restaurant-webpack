@@ -19,4 +19,4 @@ const monday = document.createElement("h3");
 monday.innerText = "CLOSED MONDAYS";
 hours.appendChild(monday);
 
-export default hours
+export default hours;

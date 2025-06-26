@@ -9,22 +9,21 @@ const hoursButton = document.getElementById("hoursButton");
 
 const content = document.getElementById("content");
 
-function setPage(div){
-    content.innerHTML = "";
-    content.appendChild(div);
+function setPage(div) {
+  content.innerHTML = "";
+  content.appendChild(div);
 }
 
-homeButton.addEventListener('click', function(){
-    setPage(firstContent);
+homeButton.addEventListener("click", function () {
+  setPage(firstContent);
 });
 
-menuButton.addEventListener('click', function(){
-    setPage(menu);
+menuButton.addEventListener("click", function () {
+  setPage(menu);
 });
 
-hoursButton.addEventListener('click', function(){
-    setPage(hours);
+hoursButton.addEventListener("click", function () {
+  setPage(hours);
 });
-
 
 content.appendChild(firstContent);

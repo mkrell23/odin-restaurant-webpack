@@ -1,38 +1,38 @@
 body {
-    box-sizing: border-box;
-    background-color: cornflowerblue;
+  box-sizing: border-box;
+  background-color: cornflowerblue;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap: 20px;
 }
 
-.title > h1{
-    text-align: center;
+.title > h1 {
+  text-align: center;
 }
 
-.cards{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex: 1;
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
 }
 
-.cards > div{
-    border: 2px solid black;
-    padding: 20px;
-    margin: 10px;
+.cards > div {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
 }
 
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
 .hours {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
