@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/mkrell23/odin-restaurant-webpack#readme",
   "devDependencies": {
+    "@eslint/js": "^9.29.0",
     "css-loader": "^7.1.2",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0",
     "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.99.9",
